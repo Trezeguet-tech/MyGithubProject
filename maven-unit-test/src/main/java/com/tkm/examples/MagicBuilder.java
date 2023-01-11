@@ -1,4 +1,4 @@
-package com.mkyong.examples;
+package com.tkm.examples;
 
 public class MagicBuilder {
 

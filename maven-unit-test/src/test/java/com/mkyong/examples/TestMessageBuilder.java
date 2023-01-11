@@ -2,6 +2,8 @@ package com.mkyong.examples;
 
 import org.junit.jupiter.api.Test;
 
+import com.tkm.examples.MessageBuilder;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestMessageBuilder {
