@@ -3,7 +3,7 @@ resources:
 - name: maven-examples
   type: git
   source:
-    branch: master
+    branch: main
     uri: https://github.com/Trezeguet-tech/MyGithubProject.git
 jobs:
 - name: compile-run-unittest
@@ -22,7 +22,7 @@ jobs:
       outputs:
       - name: build_out
       params:
-        branch: master
+        branch: main
       run:
        path: bash
        args:
