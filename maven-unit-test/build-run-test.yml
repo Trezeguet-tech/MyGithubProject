@@ -9,6 +9,7 @@ jobs:
 - name: compile-run-unittest
   plan:
   - get: maven-examples
+    trigger: true
   - task: build
     config:
       platform: linux
