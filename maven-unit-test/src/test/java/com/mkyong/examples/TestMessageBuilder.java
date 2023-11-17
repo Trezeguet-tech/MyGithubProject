@@ -1,5 +1,6 @@
 package com.mkyong.examples;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import com.tkm.examples.MessageBuilder;
@@ -27,6 +28,7 @@ public class TestMessageBuilder {
 
     @TempDir
     File anotherTempDir;
+
 
     @Test
     void givenFieldWithTempDirectoryFile_whenWriteToFile_thenContentIsCorrect() throws IOException {
